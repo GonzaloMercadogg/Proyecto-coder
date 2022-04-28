@@ -84,7 +84,9 @@ header {
     font-family: 'EB Garamond', serif;
     font-size: 45px;
     text-align: center;
-    padding: 5px;            
+    padding: 5px;
+    background-image: linear-gradient(45deg, #b1d0e0, #406882);
+            
 }
 
 .imagenprincipal {
@@ -138,6 +140,10 @@ footer {
     width: 100%;
 }
 
+.imgefecto :hover {
+    transform: scale(1.3);
+}
+
 .flex-footer {
     display: flex;
     flex-direction: column;
@@ -162,7 +168,8 @@ font-family: 'EB Garamond', serif;
 font-size: 64px;    
 text-align: left;
 margin-left: 20%; 
-margin-top: 10%;   
+margin-top: 5%;
+margin-bottom: 5%;   
 }
 
 .productos__ul {    
@@ -172,7 +179,8 @@ font-size: 30px;
 text-align: left;
 margin-left: 30%;
 list-style: none;
-float: left;    
+float: left;
+    
 }
 
 .items {    
@@ -207,13 +215,16 @@ margin-top: 1%;
     width: 100%;
 }
 
-/*---------estilos main-footer---------*/
+/*---------Nosotros main-footer---------*/
 
 .qsomos {
     color: black;
     font-family: 'EB Garamond', serif;
     font-size: 64px;    
-    text-align: center
+    text-align: center;
+    background-image: linear-gradient(45deg, #406882, #b1d0e0);
+
+    
 }
 
 .descripcion2 {
@@ -250,7 +261,7 @@ margin-left: 5%;
 .parrafo {
     color: black;
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     margin-top: 5%;
     margin-bottom: 3%;
@@ -337,6 +348,7 @@ margin-left: 5%;
 
 .pfrecuentes {
     color: black;
+    background-image: linear-gradient(45deg, #406882, #b1d0e0);
     font-family: 'EB Garamond', serif;
     font-size: 64px;    
     text-align: center; 
