@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Karla:ital,wght@1,300;1,400;1,500&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body class="fondo-index">
     <header>
@@ -26,35 +28,22 @@
         </div>        
                 
         <form action="" method="" enctype="">
-            
             <label for="buscar" class="menu--buscar"> Buscar:</label>
             <input type="text" id="buscar" name="buscar" placeholder="Ingrese marca, modelo, etc..">
         </form>     
     </header>
 
-    <main>
-        <p class="parrafo">A continuacion ingrese sus datos para ser contactado por uno de nuestros asesores:</p>
-        <form action="" method="" enctype="">
-            <div class="nombre">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
-            </div>
-
-            <div class="correo">
-                <label for="correo">Correo:</label>
-                <input type="text" id="correo" name="correo" placeholder="Ingrese su correo..">
-            </div>
-
-            <div class="consulta">
-                <label for="consulta"> Consulta:</label>
-                <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
-            </div>
-
-            <div class="enviarlimpiar">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </div>            
-        </form>
+    <main class="container">
+        <h1 class="parrafo">A continuacion ingrese sus datos para ser contactado por uno de nuestros asesores:</p>
+        <section>
+            <form action="" method="" enctype="">
+                <input type="text" placeholder="Ingrese su nombre.." class="form-control mb-4">
+                <input type="text" placeholder="Ingrese su correo.." class="form-control mb-4">
+                <textarea rows="5" placeholder="Ingrese su consulta.." class="form-control mb-4"></textarea>
+                <button type="button" class="btn btn-info">Enviar</button>
+                <input type="reset" class="btn btn-info">                        
+            </form>
+        </section>
     </main>
 
     <footer class="footer4">

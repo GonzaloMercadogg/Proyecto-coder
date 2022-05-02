@@ -12,7 +12,7 @@
     background-attachment: fixed;
 }
 
-.flex-index {
+/* .flex-index {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -38,7 +38,7 @@ header {
 .menu {
     text-decoration: none;
     color: white;    
-}
+} */
 
 /*---------------Index main-footer--------------*/
 
@@ -262,7 +262,7 @@ margin-left: 5%;
     color: black;
     font-family: 'EB Garamond', serif;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
     margin-top: 5%;
     margin-bottom: 3%;
     font-weight: bolder;
