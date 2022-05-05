@@ -56,9 +56,27 @@
         <h1 class="pdestacado">Producto destacado de la semana</h1>
         <h2 class="subxiaomi">Xiaomi Redmi Note 10</h2>
         
-        <div>          
-            <img class="imagenprincipal" src="./Imagenes/redmi-note-10.jpg" alt="redmi-note-10">                      
-          <div>   
+        <div id="carouselExampleControls" class="carousel slide imagenprincipaltamaño" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imagenes/redmi-note-10.jpg" class="d-block w-100 imagenprincipaltamaño2" alt="redmi-note-10">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/redmi_note-10-2.jpg" class="d-block w-100 imagenprincipaltamaño2" alt="redmi_note-10-2">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/redmi-note-10-3.jpg" class="d-block w-100 imagenprincipaltamaño2" alt="redmi-note-10-3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>   
             <p class="descripcion">El Redmi Note 10 es una actualización excelente respecto a su predecesor y en general, es uno de los mejores teléfonos que puedes comprar por este precio, y por eso lo recomendamos. Tiene una pantalla fantástica, ofrece un buen rendimiento y tiene una larga duración de batería..</p>
            <div class="review">
             <a class="azul" target="_blank" href="https://youtu.be/1ml0Xf0kRJE">Mira la review completa</a>

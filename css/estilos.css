@@ -19,35 +19,6 @@
 
 /*---------------Index main-footer--------------*/
 
-/* .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "ele1 ele1"
-    "ele2 ele3"
-    "ele4 ele4";  
-    justify-items: center;
-}
-
-.grid-container1 {
-    grid-area: ele1;
-    text-align: center;        
-}
-
-.grid-container2 {
-    grid-area: ele2;
-}
-
-.grid-container3 {
-    grid-area: ele3;          
-}
-
-.grid-container4 {
-    grid-area: ele4;   
-} */
-
-
 .pdestacado {
     display: flex;
     justify-content: center;
@@ -55,7 +26,6 @@
     text-align: center;
     font-size: 64px;
     font-family: 'EB Garamond', serif;
-    /* background-image: linear-gradient(45deg, #406882, #b1d0e0); */
 }
 
 .subxiaomi {
@@ -64,19 +34,23 @@
     font-size: 45px;
     text-align: center;
     padding: 5px;
-    /* background-image: linear-gradient(45deg, #b1d0e0, #406882); */
+    
             
 }
 
-.imagenprincipal {
-    float: left;
-    transform: translateY(-200px) translateX(375px) ;
+.imagenprincipaltamaño {
+    height: 500px;
+    width: 800px;
+    transform: translateY(150px) translateX(255px);     
 }
 
+.imagenprincipaltamaño2 {
+    height: 400px;
+    
+}
 
 .descripcion {
     display: flex;
-    /* flex-direction: row; */
     background-color: antiquewhite;
     border-radius: 10%;
     height: 373px;
@@ -86,15 +60,14 @@
     width: 245px;
     font-size: 22px;
     font-family: 'EB Garamond', serif;
-    transform: translateY(-200px) translateX(600px);
-    /* float: right; */
+    transform: translateY(-600px) translateX(1200px);   
 }
 
 .review {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
     margin-bottom: 1%;
-    transform: translateY(-200px) translateX(1110px);        
+    transform: translateY(-600px) translateX(1235px);       
 }
 
 .azul {
@@ -107,13 +80,13 @@
     text-align: center;
     border-radius: 10%;
     font-family: 'EB Garamond', serif;
-    transform: translateY(-200px) translateX(1150px); 
+    transform: translateY(-600px) translateX(1270px);
 }
 
 .logos {
     text-align: center;
     padding: 50px;
-    transform: translateY(-200px);
+    transform: translateY(-490px);
 }
 
 
@@ -128,7 +101,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    transform: translateY(-250px);      
+    transform: translateY(-550px);      
 }
 
 /*----------productos main-footer------------*/
@@ -400,4 +373,50 @@ margin-left: 5%;
     text-align: left;
     padding: 5px;
     color: white;   
+}
+
+@media screen and (max-width: 280px) {
+
+    /* INDEX */
+.pdestacado {
+    font-size: 32px;
+}
+
+.subxiaomi {
+    font-size: 25px;
+}
+
+.imagenprincipaltamaño {
+    transform: translateX(1px);
+    width: 250px;
+    margin-left: 6%; 
+}
+
+.imagenprincipaltamaño2 {
+    height: 300px;
+}
+
+.descripcion {
+    transform: translateX(20px) translateY(-200px);
+}
+
+.review {
+    transform: translateX(50px) translateY(-200px);
+}
+
+.botoncomprar {
+    transform: translateX(90px) translateY(-200px);
+}
+
+.logos{
+    transform: translateY(-200px);
+}
+
+.flex-footer {
+    transform: translateY(-200px);
+}
+
+/* Productos */
+
+
 }
