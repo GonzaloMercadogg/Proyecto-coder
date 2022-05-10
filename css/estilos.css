@@ -89,10 +89,10 @@
     transform: translateY(-490px);
 }
 
-
+/* 
 .imgefecto :hover {
     transform: scale(1.3);
-}
+} */
 
 .flex-footer {
     display: flex;
@@ -169,7 +169,7 @@ margin-top: 1%;
 
 /*---------Nosotros main-footer---------*/
 
-.qsomos {
+/* .qsomos {
     color: black;
     font-family: 'EB Garamond', serif;
     font-size: 64px;    
@@ -206,7 +206,7 @@ margin-left: 5%;
     position: absolute;
     bottom: 0;
  width: 100%;
-}
+} */
 
 /*-------contacto main-footer----------*/
 

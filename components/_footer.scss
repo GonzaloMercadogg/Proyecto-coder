@@ -1,0 +1,12 @@
+.footer3 {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    &__imgefecto :hover {
+        transform: scale(1.3);
+    }
+}
