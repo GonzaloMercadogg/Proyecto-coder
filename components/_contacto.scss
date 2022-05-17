@@ -1,0 +1,59 @@
+.navbarTodos {
+    @extend .navbarTodos
+}
+
+.container {
+    &__parrafo {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-weight: bolder; 
+    }
+}
+
+.nombre {
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    text-align: left;    
+    margin-bottom: 5%; 
+    font-weight: bold;
+}
+
+.correo {
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    text-align: left;    
+    margin-bottom: 5%;
+    font-weight: bold; 
+}
+
+.consulta {
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    text-align: left;    
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.enviarlimpiar {
+    margin-left: 8%;
+    margin-bottom: 3.5%;
+}
+
+.footer4 {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    &__imgefecto :hover {
+        transform: scale(1.3);
+    }
+}

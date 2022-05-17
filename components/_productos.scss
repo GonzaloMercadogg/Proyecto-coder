@@ -1,0 +1,53 @@
+.navbarTodos {
+    @extend .navbarTodos
+}
+
+.productos {    
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;    
+    text-align: left;
+    margin-left: 20%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    &__lista {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 30px;        
+        text-align: left;
+        margin-left: 30%;
+        list-style: none;
+        float: left;
+        &__items {
+            margin-bottom: 20%;
+            margin-top: 20%;
+            font-weight: bold;
+            display: block;
+        }
+    }   
+}
+
+.video {    
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.logos2 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 50px;
+}
+
+.footer2 {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(250px);
+    &__imgefecto :hover {
+        transform: scale(1.3);
+    }
+}

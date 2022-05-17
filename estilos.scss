@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Header General
+
+@import "./components/global";
+
+// Index
+
+@import "./components/index";
+
+// Productos
+
+@import "./components/productos";
+
+// Nosotros
+
+@import "./components/nosotros";
+
+// Contacto
+
+@import "./components/contacto";
+
+// FAQ
+
+@import "./components/faq";
+
+
+// Media queries
+
+@media screen and (max-width: 280px) {
+
+    /* INDEX */
+.pdestacado {
+    font-size: 32px;
+}
+
+.subxiaomi {
+    font-size: 25px;
+}
+
+.imagenprincipaltamaño {
+    transform: translateX(1px);
+    width: 250px;
+    margin-left: 6%; 
+}
+
+.imagenprincipaltamaño2 {
+    height: 300px;
+}
+
+.descripcion {
+    transform: translateX(20px) translateY(-200px);
+}
+
+.review {
+    transform: translateX(50px) translateY(-200px);
+}
+
+.botoncomprar {
+    transform: translateX(90px) translateY(-200px);
+}
+
+.logos{
+    transform: translateY(-200px);
+}
+
+.flex-footer {
+    transform: translateY(-200px);
+}
+
+/* Productos */
+
+
+}
+
+@media screen and (max-width: 720px) {
+    
+.parrafo {
+    font-size: 20px;
+}
+   
+}

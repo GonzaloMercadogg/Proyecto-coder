@@ -1,19 +1,6 @@
-@import "./components/variables";
-
-// Header General
-
-.fondo-index {
-    background-image: url(../Imagenes/fondo-3.jpg);
-    background-size: contain;
-    background-attachment: fixed;
-}
-
 .navbarTodos {
-    display: flex;
-    justify-content: center;
+    @extend .navbarTodos
 }
-
-// Nosotros
 
 .info {
     font-family: 'EB Garamond', serif;
@@ -22,10 +9,10 @@
     &__qsomos {
         font-size: 64px;    
         text-align: center;
-        background-image: $bimage;
+        background-image: linear-gradient(45deg, #406882, #b1d0e0);
     }
     &__descripcion2 {
-        background-color: $bgcolor;
+        background-color: azure;
         font-size: x-large;
         border-radius: 5%;
         height: 330px;
@@ -39,12 +26,20 @@
 
 }
 
-
 .imagenprincipal2 {
     margin-top: 5%;
     margin-bottom: 8%;
     margin-left: 5%;
 }
 
-@import "./components/footer"
-
+.footer3 {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    &__imgefecto :hover {
+        transform: scale(1.3);
+    }
+}

@@ -1,0 +1,78 @@
+.navbarTodos {
+    @extend .navbarTodos
+}
+
+.gridfaq {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "ele1 ele1"
+    "ele2 ele5"
+    "ele3 ele5"
+    "ele4 ele5";
+    &__1 {
+        grid-area: ele1;
+        &__pfrecuentes {
+            color: black;
+            background-image: linear-gradient(45deg, #406882, #b1d0e0);
+            font-family: 'EB Garamond', serif;
+            font-size: 64px;    
+            text-align: center; 
+        }        
+    }
+    &__2 {
+        grid-area: ele2;
+        &__comocomprar {
+            @include detallesfaq;
+        }
+        &__respuestas1 {
+            @include detallesfaq2;
+        }
+    }
+    &__3 {
+        grid-area: ele3;
+        &__enviarpedido {
+            @include detallesfaq;
+
+        }
+        &__respuesta2 {
+            @include detallesfaq2;
+        }
+
+    }
+    &__4 {
+        grid-area: ele4;
+        &__metpago {
+            color: black;
+            font-family: 'EB Garamond', serif;
+            font-size: 45px;
+            text-align: left;
+            padding: 20px;
+            margin-left: 1%;
+        }
+        &__pagos {
+            @include detallesfaq2;
+
+        }   
+    }
+    &__5 {
+        grid-area: ele5;    
+        margin-top: 10%;
+        margin-right: 16%;
+        margin-bottom: 1px;   
+        border-style: double;
+    }
+}
+
+.flexfooter5 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    &__imgefecto :hover {
+        transform: scale(1.3);
+    }
+}
