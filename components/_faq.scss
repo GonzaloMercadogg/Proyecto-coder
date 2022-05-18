@@ -64,15 +64,3 @@
         border-style: double;
     }
 }
-
-.flexfooter5 {
-    display: flex;
-    color: white;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    bottom: 0;
-    &__imgefecto :hover {
-        transform: scale(1.3);
-    }
-}

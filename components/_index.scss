@@ -68,19 +68,8 @@
 
 .logos {
     text-align: center;
-    padding: 50px;
-    transform: translateY(-490px);
+    margin-top: -1rem;
+    margin-bottom: 1%;
+    // transform: translateY(-390px);
 }
 
-.flex-footer {
-    display: flex;
-    color: white;
-    text-align: left;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    transform: translateY(-550px); 
-    &__imgefecto :hover {
-        transform: scale(1.3);
-    }     
-}
