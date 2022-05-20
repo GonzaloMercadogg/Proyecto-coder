@@ -2,8 +2,35 @@
     @extend .navbarTodos
 }
 
+.containerIndex {
+    // background-color: #2596be;
+    width: 90%;
+    max-width: 1400px;
+    margin: 1.6rem auto;
+
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "el1 el1"
+    "el2 el3"
+    "el4 el4";
+}
+.el1 {
+    grid-area: el1;
+}
+
+.el2 {
+    grid-area: el2;
+}
+
+.el3 {
+    grid-area: el3;
+}
+
 .pdestacado {
-    display: flex;
+    // display: flex;
     justify-content: center;
     color: black;
     text-align: center;
@@ -24,52 +51,57 @@
 .imagenprincipaltamaño {
     height: 500px;
     width: 800px;
-    transform: translateY(150px) translateX(255px);     
+    // justify-content: center;
+    // transform: translateY(150px) translateX(255px);     
 }
 
 .imagenprincipaltamaño2 {
-    height: 400px;
-    
+    height: 400px;   
 }
 
 .descripcion {
-    display: flex;
+    // display: flex;
     background-color: antiquewhite;
     border-radius: 10%;
     height: 373px;
-    margin-top: 15%;
-    margin-right: 40%;
+    // margin-top: 15%;
+    // margin-right: 40%;
     text-align: center;
     width: 245px;
     font-size: 22px;
     font-family: 'EB Garamond', serif;
-    transform: translateY(-600px) translateX(1200px);   
+    // transform: translateY(-600px) translateX(1200px);   
 }
 
 .review {
+    // display: flex;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
-    margin-bottom: 1%;
-    transform: translateY(-600px) translateX(1235px);
+    align-content: center;
+    // margin-bottom: 1%;
+    // transform: translateY(-600px) translateX(1235px);
     text-decoration: none;
     color: black;
-    &__1 {
-        text-decoration: none;
-        color: black;  
-    }
+    // &__1 {
+    //     text-decoration: none;
+    //     color: black;  
+    // }
 }
 
 .botoncomprar {
+    display: flex;
+    
     text-align: center;
     border-radius: 10%;
     font-family: 'EB Garamond', serif;
-    transform: translateY(-600px) translateX(1270px);
+    // transform: translateY(-600px) translateX(1270px);
 }
 
 .logos {
     text-align: center;
-    margin-top: -1rem;
-    margin-bottom: 1%;
+    grid-area: el4;
+    // margin-top: -1rem;
+    // margin-bottom: 1%;
     // transform: translateY(-390px);
 }
 
