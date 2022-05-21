@@ -13,95 +13,70 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
-    "el1 el1"
-    "el2 el3"
+    "pdestacado pdestacado"
+    "imagenprincipaltamaño el3"
     "el4 el4";
 }
-.el1 {
-    grid-area: el1;
-}
-
-.el2 {
-    grid-area: el2;
-}
-
-.el3 {
-    grid-area: el3;
-}
-
 .pdestacado {
-    // display: flex;
-    justify-content: center;
-    color: black;
-    text-align: center;
-    font-size: 64px;
-    font-family: 'EB Garamond', serif;
-}
-
-.subxiaomi {
-    color: black;
-    font-family: 'EB Garamond', serif;
-    font-size: 45px;
-    text-align: center;
-    padding: 5px;
-    
-            
+    grid-area: pdestacado;
+    &__titulo {
+        justify-content: center;
+        color: black;
+        text-align: center;
+        font-size: 64px;
+        font-family: 'EB Garamond', serif;
+    }
+    &__subtitulo {
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 45px;
+        text-align: center;
+        padding: 5px;
+    }
 }
 
 .imagenprincipaltamaño {
+    grid-area: imagenprincipaltamaño;
     height: 500px;
     width: 800px;
-    // justify-content: center;
-    // transform: translateY(150px) translateX(255px);     
-}
-
-.imagenprincipaltamaño2 {
-    height: 400px;   
+    &__2 {
+        height: 400px;
+    }
 }
 
 .descripcion {
-    // display: flex;
-    background-color: antiquewhite;
-    border-radius: 10%;
-    height: 373px;
-    // margin-top: 15%;
-    // margin-right: 40%;
-    text-align: center;
-    width: 245px;
-    font-size: 22px;
-    font-family: 'EB Garamond', serif;
-    // transform: translateY(-600px) translateX(1200px);   
-}
-
-.review {
-    // display: flex;
-    font-family: 'EB Garamond', serif;
-    font-size: 20px;
-    align-content: center;
-    // margin-bottom: 1%;
-    // transform: translateY(-600px) translateX(1235px);
-    text-decoration: none;
-    color: black;
-    // &__1 {
-    //     text-decoration: none;
-    //     color: black;  
-    // }
-}
-
-.botoncomprar {
-    display: flex;
-    
-    text-align: center;
-    border-radius: 10%;
-    font-family: 'EB Garamond', serif;
-    // transform: translateY(-600px) translateX(1270px);
+    grid-area: el3;
+    &__parrafo {
+        display: flex;
+        background-color: antiquewhite;
+        border-radius: 10%;
+        height: 373px;
+        text-align: center;
+        width: 245px;
+        font-size: 22px;
+        font-family: 'EB Garamond', serif;
+    }
+    &__review {
+        display: flex;
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        transform: translateY(0.1px) translateX(30px);
+        text-decoration: none;
+        color: black;
+    }
+    &__boton {
+        display: flex;
+        text-align: center;
+        border-radius: 10%;
+        font-family: 'EB Garamond', serif;
+        transform: translateY(1px) translateX(70px);
+    }
 }
 
 .logos {
     text-align: center;
     grid-area: el4;
-    // margin-top: -1rem;
-    // margin-bottom: 1%;
-    // transform: translateY(-390px);
 }
 
