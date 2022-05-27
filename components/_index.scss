@@ -24,11 +24,12 @@
         color: black;
         text-align: center;
         font-size: 64px;
-        font-family: 'EB Garamond', serif;
+        font-family: $tipoletra;
+        background-color: $colorh1;
     }
     &__subtitulo {
         color: black;
-        font-family: 'EB Garamond', serif;
+        font-family: $tipoletra;
         font-size: 45px;
         text-align: center;
         padding: 5px;
