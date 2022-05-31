@@ -1,9 +1,4 @@
-.navbarTodos {
-    @extend .navbarTodos
-}
-
 .containerIndex {
-    // background-color: #2596be;
     width: 90%;
     max-width: 1400px;
     margin: 1.6rem auto;
@@ -20,17 +15,15 @@
 .pdestacado {
     grid-area: pdestacado;
     &__titulo {
+        @include estilosyfuente (center, black, $titulogral);
         justify-content: center;
-        color: black;
-        text-align: center;
-        font-size: 64px;
-        font-family: $tipoletra;
-        background-color: $colorh1;
+        font-family: $fuentegral;
+        background-color: $fondotitulo;
     }
     &__subtitulo {
-        color: black;
-        font-family: $tipoletra;
-        font-size: 45px;
+        color: $colorgral;
+        font-family: $fuentegral;
+        font-size: $subgral;
         text-align: center;
         padding: 5px;
     }
@@ -48,30 +41,29 @@
 .descripcion {
     grid-area: el3;
     &__parrafo {
+        @include estilosyfuente (center, $colorgral, 22px);
         display: flex;
         background-color: antiquewhite;
         border-radius: 10%;
         height: 373px;
-        text-align: center;
         width: 245px;
-        font-size: 22px;
-        font-family: 'EB Garamond', serif;
+        font-family: $fuentegral;
     }
     &__review {
         display: flex;
-        font-family: 'EB Garamond', serif;
+        font-family: $fuentegral;
         font-size: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
         transform: translateY(0.1px) translateX(30px);
         text-decoration: none;
-        color: black;
+        color: $colorgral;
     }
     &__boton {
         display: flex;
         text-align: center;
         border-radius: 10%;
-        font-family: 'EB Garamond', serif;
+        font-family: $fuentegral;
         transform: translateY(1px) translateX(70px);
     }
 }

@@ -1,7 +1,3 @@
-.navbarTodos {
-    @extend .navbarTodos
-}
-
 .gridfaq {
     display: grid;
     grid-template-columns: auto auto;
@@ -14,45 +10,56 @@
     &__1 {
         grid-area: ele1;
         &__pfrecuentes {
-            color: black;
-            background-image: linear-gradient(45deg, #406882, #b1d0e0);
-            font-family: 'EB Garamond', serif;
-            font-size: 64px;    
-            text-align: center; 
+            @include estilosyfuente (center, $colorgral, $titulogral);
+            background-image: $fondotitulo;
+            font-family: $fuentegral;
         }        
     }
     &__2 {
         grid-area: ele2;
         &__comocomprar {
-            @include detallesfaq;
+            @include estilosyfuente (left, $colorgral, $subgral);
+            font-family: $fuentegral;
+            padding: 20px;
+            margin-left: 1%; 
         }
         &__respuestas1 {
-            @include detallesfaq2;
+            @include estilosyfuente (left, $colorgral, 25px);
+            font-family: $fuentegral;
+            font-weight: bold;
+            margin-left: 4%;
         }
     }
     &__3 {
         grid-area: ele3;
         &__enviarpedido {
-            @include detallesfaq;
+            @include estilosyfuente (left, black, $subgral);
+            font-family: $fuentegral;
+            padding: 20px;
+            margin-left: 1%; 
 
         }
         &__respuesta2 {
-            @include detallesfaq2;
+            @include estilosyfuente (left, black, 25px);
+            font-family: $fuentegral;
+            font-weight: bold;
+            margin-left: 4%;
         }
 
     }
     &__4 {
         grid-area: ele4;
         &__metpago {
-            color: black;
-            font-family: 'EB Garamond', serif;
-            font-size: 45px;
-            text-align: left;
+            @include estilosyfuente (left, black, $subgral);
+            font-family: $fuentegral;
             padding: 20px;
             margin-left: 1%;
         }
         &__pagos {
-            @include detallesfaq2;
+            @include estilosyfuente (left, black, 25px);
+            font-family: $fuentegral;
+            font-weight: bold;
+            margin-left: 4%;
 
         }   
     }

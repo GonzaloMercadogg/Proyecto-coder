@@ -1,12 +1,8 @@
-.navbarTodos {
-    @extend .navbarTodos
-}
-
 .nprod {
-    text-align: center;
+    @include estilosyfuente (center, $colorgral, $titulogral);
     margin-bottom: 3rem;
-    background-image: $colorh1;
-    font-family: $tipoletra;
+    background-image: $fondotitulo;
+    font-family: $fuentegral;
 }
 
 .logos2 {
