@@ -18,7 +18,6 @@
         @include estilosyfuente (center, black, $titulogral);
         justify-content: center;
         font-family: $fuentegral;
-        background-color: $fondotitulo;
     }
     &__subtitulo {
         color: $colorgral;

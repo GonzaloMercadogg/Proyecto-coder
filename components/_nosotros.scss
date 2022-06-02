@@ -1,28 +1,21 @@
-.info {
-    font-family: $fuentegral;
-    color: $colorgral;
-
-    &__qsomos {
+.qsomos {
         @include estilosyfuente (center, $colorgral, $titulogral);
         background-image: $fondotitulo;
+        font-family: $fuentegral;
     }
-    &__descripcion2 {
+
+.descripcion2 {
         @include estilosyfuente (center, $colorgral, x-large);
         background-color: azure;
+        font-family: $fuentegral;
         border-radius: 5%;
         height: 330px;
         width: 500px;
-        margin: 2rem auto;
-        margin-right: 25%;
-        margin-top: 8%;
-        float: right; 
-    }
-
+        margin-top: 6rem;
+        margin-left: 8rem;
 }
 
 .imagenprincipal2 {
-    margin-top: 5%;
-    margin-bottom: 8%;
-    margin-left: 5%;
+    margin-top: 3rem;
 }
 
