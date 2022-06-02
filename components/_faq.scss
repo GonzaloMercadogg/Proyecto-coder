@@ -1,73 +1,56 @@
-.gridfaq {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-    "ele1 ele1"
-    "ele2 ele5"
-    "ele3 ele5"
-    "ele4 ele5";
-    &__1 {
-        grid-area: ele1;
-        &__pfrecuentes {
-            @include estilosyfuente (center, $colorgral, $titulogral);
-            background-image: $fondotitulo;
-            font-family: $fuentegral;
-        }        
-    }
-    &__2 {
-        grid-area: ele2;
-        &__comocomprar {
-            @include estilosyfuente (left, $colorgral, $subgral);
-            font-family: $fuentegral;
-            padding: 20px;
-            margin-left: 1%; 
-        }
-        &__respuestas1 {
-            @include estilosyfuente (left, $colorgral, 25px);
-            font-family: $fuentegral;
-            font-weight: bold;
-            margin-left: 4%;
-        }
-    }
-    &__3 {
-        grid-area: ele3;
-        &__enviarpedido {
-            @include estilosyfuente (left, black, $subgral);
-            font-family: $fuentegral;
-            padding: 20px;
-            margin-left: 1%; 
 
-        }
-        &__respuesta2 {
-            @include estilosyfuente (left, black, 25px);
-            font-family: $fuentegral;
-            font-weight: bold;
-            margin-left: 4%;
-        }
+.pfrecuentes {
+    @include estilosyfuente (center, $colorgral, $titulogral);
+     background-image: $fondotitulo;
+    font-family: $fuentegral;
+}        
 
-    }
-    &__4 {
-        grid-area: ele4;
-        &__metpago {
-            @include estilosyfuente (left, black, $subgral);
-            font-family: $fuentegral;
-            padding: 20px;
-            margin-left: 1%;
-        }
-        &__pagos {
-            @include estilosyfuente (left, black, 25px);
-            font-family: $fuentegral;
-            font-weight: bold;
-            margin-left: 4%;
 
-        }   
-    }
-    &__5 {
-        grid-area: ele5;    
-        margin-top: 10%;
-        margin-right: 16%;
-        margin-bottom: 1px;   
-        border-style: double;
+.comocomprar {
+    @include estilosyfuente (left, $colorgral, $subgral);
+    font-family: $fuentegral;
+    padding: 20px;
+    margin-left: 1%;
+    &__resp1 {
+        font-size: $respfaq;
+        font-family: $fuentegral;
+        font-weight: bold;
+        margin-left: 4%;
     }
 }
+       
+.enviarpedido {
+    @include estilosyfuente (left, black, $subgral);
+    font-family: $fuentegral;
+    padding: 20px;
+    margin-left: 1%; 
+    &__resp2 {
+        font-size: $respfaq;
+        font-family: $fuentegral;
+        font-weight: bold;
+        margin-left: 4%;
+    }
+}
+
+.metpago {
+    @include estilosyfuente (left, black, $subgral);
+    font-family: $fuentegral;
+    padding: 20px;
+    margin-left: 1%;
+    &__resp3 {
+        font-size: $respfaq;
+        font-family: $fuentegral;
+        font-weight: bold;
+        margin-left: 4%;
+    }
+}
+
+
+    // &__5 {
+    //     grid-area: ele5;    
+    //     margin-top: 10%;
+    //     margin-right: 16%;
+    //     margin-bottom: 1px;   
+    //     border-style: double;
+    // }
+
