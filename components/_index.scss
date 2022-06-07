@@ -1,74 +1,52 @@
-.containerIndex {
-    width: 90%;
-    max-width: 1400px;
-    margin: 1.6rem auto;
-
-    display: grid;
-    gap: 1.6rem;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 
-    "pdestacado pdestacado"
-    "imagenprincipaltamaño el3"
-    "el4 el4";
-}
 .pdestacado {
-    grid-area: pdestacado;
-    &__titulo {
-        @include estilosyfuente (center, black, $titulogral);
-        justify-content: center;
-        font-family: $fuentegral;
-    }
-    &__subtitulo {
-        color: $colorgral;
-        font-family: $fuentegral;
-        font-size: $subgral;
-        text-align: center;
-        padding: 5px;
-    }
+    @include estilosyfuente (center, black, $titulogral);
+    @include fondosyfuente ($fondotitulo, center, $fuentegral);      
 }
+
+.pdestacadosub {
+    @include estilosyfuente (center, black, $subgral);
+    @include fondosyfuente ($fondotitulo, center, $fuentegral);
+}
+
+
 
 .imagenprincipaltamaño {
-    grid-area: imagenprincipaltamaño;
     height: 500px;
-    width: 800px;
+    width: 45%;
     &__2 {
         height: 400px;
     }
 }
 
 .descripcion {
-    grid-area: el3;
+    font-family: $fuentegral;
+    
     &__parrafo {
         @include estilosyfuente (center, $colorgral, 22px);
-        display: flex;
+        // display: flex;
         background-color: antiquewhite;
         border-radius: 10%;
         height: 373px;
         width: 245px;
-        font-family: $fuentegral;
+        
     }
     &__review {
+        @include estilosyfuente (center, $colorgral, 20px);
         display: flex;
-        font-family: $fuentegral;
         font-size: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
         transform: translateY(0.1px) translateX(30px);
         text-decoration: none;
-        color: $colorgral;
+        
     }
     &__boton {
-        display: flex;
-        text-align: center;
         border-radius: 10%;
-        font-family: $fuentegral;
         transform: translateY(1px) translateX(70px);
     }
 }
 
 .logos {
     text-align: center;
-    grid-area: el4;
 }
 

@@ -13,3 +13,9 @@ $respfaq: 25px;
     font-size: $size;
 }
 
+@mixin fondosyfuente ($background, $justify, $font){
+    background-image: $background;
+    justify-content: $justify;
+    font-family: $font;
+}
+
