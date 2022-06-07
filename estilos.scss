@@ -37,53 +37,99 @@
 @media screen and (max-width: 280px) {
 
     /* INDEX */
+
 .pdestacado {
-    font-size: 32px;
+    font-size: 30px;
 }
 
-.subxiaomi {
+.pdestacadosub {
     font-size: 25px;
 }
 
 .imagenprincipaltamaño {
-    transform: translateX(1px);
     width: 250px;
-    margin-left: 6%; 
+    margin-left: 1.2rem; 
 }
 
-.imagenprincipaltamaño2 {
-    height: 300px;
+.descripcion__parrafo {
+    transform: translateY(-90px) translateX(10px);
 }
 
-.descripcion {
-    transform: translateX(20px) translateY(-200px);
+.descripcion__review {
+    transform: translateY(-90px) translateX(40px);
 }
 
-.review {
-    transform: translateX(50px) translateY(-200px);
+.descripcion__boton {
+    transform: translateY(-90px) translateX(80px);
 }
-
-.botoncomprar {
-    transform: translateX(90px) translateY(-200px);
+.mapa {
+    margin-left: 4rem;
 }
-
-.logos{
-    transform: translateY(-200px);
-}
-
-.flex-footer {
-    transform: translateY(-200px);
-}
-
 /* Productos */
 
+.nprod {
+    font-size: 30px;
+}
 
+.card-text {
+    font-size: 12px;
+}
+
+/* Nosotros */
+
+.qsomos {
+    font-size: 30px;  
+}
+
+.alinear {
+    transform: translateY(-60px) translateX(-110px);
+}
+
+.descripcion2 {
+    font-size: 17px;
+    height: 373px;
+    width: 225px;
+}
+
+/* Contacto */
+
+.container__titulo {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+/* FAQ */
+
+.pfrecuentes {
+    font-size: 30px; 
+}
+
+.comocomprar {
+    font-size: 30px;
+}
+
+.resp1 {
+    font-size: 20px;
+}
+
+.enviarpedido {
+    font-size: 30px;
+}
+
+.resp2 {
+    font-size: 20px;  
+}
+
+.metpago {
+    font-size: 30px;
+}
+
+.resp3 {
+    font-size: 20px;
+}
 }
 
 @media screen and (max-width: 720px) {
     
-.parrafo {
-    font-size: 20px;
-}
-   
+  
 }
