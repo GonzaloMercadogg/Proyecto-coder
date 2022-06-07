@@ -13,21 +13,21 @@
 }
 
 .resp1 {
-    @include estilosyfuente (left, black, $respfaq);
+    @include estilosyfuente (left, $colorgral, $respfaq);
     font-family: $fuentegral;
     font-weight: bold;
     margin-left: 4%;
 }
       
 .enviarpedido {
-    @include estilosyfuente (left, black, $subgral);
+    @include estilosyfuente (left, $colorgral, $subgral);
     font-family: $fuentegral;
     padding: 20px;
     margin-left: 1%; 
 }
 
 .resp2 {
-    @include estilosyfuente (left, black, $respfaq);
+    @include estilosyfuente (left, $colorgral, $respfaq);
     font-family: $fuentegral;
     font-weight: bold;
     margin-left: 4%;
