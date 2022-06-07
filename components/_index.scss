@@ -8,9 +8,8 @@
     @include fondosyfuente ($fondotitulo, center, $fuentegral);
 }
 
-
-
 .imagenprincipaltamaño {
+    margin-top: 2rem;
     height: 500px;
     width: 45%;
     &__2 {
@@ -20,15 +19,14 @@
 
 .descripcion {
     font-family: $fuentegral;
-    
+    margin-top: 3rem;
     &__parrafo {
         @include estilosyfuente (center, $colorgral, 22px);
-        // display: flex;
         background-color: antiquewhite;
         border-radius: 10%;
         height: 373px;
         width: 245px;
-        
+        transform: translateY(0px) translateX(150px);   
     }
     &__review {
         @include estilosyfuente (center, $colorgral, 20px);
@@ -36,17 +34,17 @@
         font-size: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        transform: translateY(0.1px) translateX(30px);
-        text-decoration: none;
-        
+        transform: translateY(0.1px) translateX(180px);
+        text-decoration: none;    
     }
     &__boton {
         border-radius: 10%;
-        transform: translateY(1px) translateX(70px);
+        transform: translateY(1px) translateX(220px);
     }
 }
 
 .logos {
+    margin-top: 5rem;
     text-align: center;
 }
 

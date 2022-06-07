@@ -31,12 +31,14 @@
         font-size: 25px;
         font-weight: bold;
         color: white;
-        &__lista {
-            text-decoration: none;
-            list-style: none;
-
-        }
     }
-    
+    &__lista {
+        list-style: none;
+        text-decoration: none;
+    }
 }
+
+    
+    
+
 

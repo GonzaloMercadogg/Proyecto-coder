@@ -1,7 +1,6 @@
-
 .pfrecuentes {
     @include estilosyfuente (center, $colorgral, $titulogral);
-     background-image: $fondotitulo;
+    background-image: $fondotitulo;
     font-family: $fuentegral;
 }        
 
@@ -11,46 +10,46 @@
     font-family: $fuentegral;
     padding: 20px;
     margin-left: 1%;
-    &__resp1 {
-        font-size: $respfaq;
-        font-family: $fuentegral;
-        font-weight: bold;
-        margin-left: 4%;
-    }
 }
-       
+
+.resp1 {
+    @include estilosyfuente (left, black, $respfaq);
+    font-family: $fuentegral;
+    font-weight: bold;
+    margin-left: 4%;
+}
+      
 .enviarpedido {
     @include estilosyfuente (left, black, $subgral);
     font-family: $fuentegral;
     padding: 20px;
     margin-left: 1%; 
-    &__resp2 {
-        font-size: $respfaq;
-        font-family: $fuentegral;
-        font-weight: bold;
-        margin-left: 4%;
-    }
 }
+
+.resp2 {
+    @include estilosyfuente (left, black, $respfaq);
+    font-family: $fuentegral;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
 
 .metpago {
     @include estilosyfuente (left, black, $subgral);
     font-family: $fuentegral;
     padding: 20px;
     margin-left: 1%;
-    &__resp3 {
-        font-size: $respfaq;
-        font-family: $fuentegral;
-        font-weight: bold;
-        margin-left: 4%;
-    }
 }
 
+.resp3 {
+    @include estilosyfuente (left, black, $respfaq);
+    font-family: $fuentegral;
+    font-weight: bold;
+    margin-left: 4%;
+}
+        
+.img-fluid {
+    margin-top: 3rem;
+}
 
-    // &__5 {
-    //     grid-area: ele5;    
-    //     margin-top: 10%;
-    //     margin-right: 16%;
-    //     margin-bottom: 1px;   
-    //     border-style: double;
-    // }
 
