@@ -1,8 +1,12 @@
 .pfrecuentes {
     @include estilosyfuente (center, $colorgral, $titulogral);
-    background-image: $fondotitulo;
+    // background-image: $fondotitulo;
     font-family: $fuentegral;
 }        
+
+.fondo1 {
+    background-image: linear-gradient(to bottom, #3092b4, #ce52b2)
+}
 
 .comocomprar {
     @include estilosyfuente (left, $colorgral, $subgral);
