@@ -65,6 +65,7 @@
 .mapa {
     margin-left: 4rem;
 }
+
 /* Productos */
 
 .nprod {
@@ -129,7 +130,126 @@
 }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
+ 
+/* INDEX */
+.pdestacado {
+    font-size: 40px;
+}
+
+   .pdestacadosub {
+    font-size: 30px;
+}
     
+.imagenprincipaltamaño {
+    width: 290px;
+    margin-left: 1.2rem; 
+}
+
+.descripcion__parrafo {
+    transform: translateY(0px) translateX(70px);
+}
+
+.descripcion__review {
+    transform: translateY(-90px) translateX(40px);
+}
+
+.descripcion__boton {
+    transform: translateY(-90px) translateX(80px);
+}
+.mapa {
+    margin-left: 4rem;
+}
+
+/* Productos */
+
+.nprod {
+    font-size: 40px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+/* Nosotros*/
+
+.qsomos {
+    font-size: 40px;
+    margin-bottom: 2rem;  
+}
+
+.alinear {
+    transform: translateY(-60px) translateX(-60px);
+}
+
+.descripcion2 {
+    font-size: 15px;
+    height: 273px;
+    width: 225px;
+}
+
+/* Contacto*/
+
+.container__titulo {
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+/* FAQ*/
+
+.pfrecuentes {
+    font-size: 40px; 
+}
+
+.comocomprar {
+    font-size: 30px;
+}
+
+.resp1 {
+    font-size: 20px;
+}
+
+.enviarpedido {
+    font-size: 30px;
+}
+
+.resp2 {
+    font-size: 20px;  
+}
+
+.metpago {
+    font-size: 30px;
+}
+
+.resp3 {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+ 
+/*Productos*/
+
+.card-text {
+    font-size: 15px;
+}
   
+/* Nosotros*/
+
+.qsomos {
+    margin-bottom: 2rem;  
+}
+
+.alinear {
+    transform: translateY(-50px) translateX(50px);
+}
+
+.descripcion2 {
+    font-size: 18px;
+    height: 375px;
+    width: 255px;
+}
+
+
 }

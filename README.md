@@ -1,10 +1,6 @@
 # Proyecto-coder
 Proyecto demo para Coder
 
-**bold text**
+En el presente proyecto se muestra una empresa que vende celulares describiendo varias marcas y modelos a traves de links a Youtube para poder ver ampliamente las caracteristicas de los mismos. En el sitio tambien cuenta con un formulario de contacto, preguntas frecuentes y un breve resumen sobre la empresa.
 
-*italicized text*
-
-- First item
-- Second item
-- Third item
+Se aplica bootstrap, sass y medias queries.
