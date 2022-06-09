@@ -25,8 +25,7 @@
         background-color: azure;
         border-radius: 10%;
         height: 373px;
-        width: 245px;
-        transform: translateY(0px) translateX(150px);   
+        width: 245px;     
     }
     &__review {
         @include estilosyfuente (center, $colorgral, 20px);
@@ -34,12 +33,11 @@
         font-size: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        transform: translateY(0.1px) translateX(180px);
         text-decoration: none;    
     }
     &__boton {
         border-radius: 10%;
-        transform: translateY(1px) translateX(220px);
+        
     }
 }
 
