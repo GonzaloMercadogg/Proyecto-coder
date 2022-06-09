@@ -6,6 +6,8 @@
 
 .descripcion2 {
         @include estilosyfuente (center, $colorgral, x-large);
+        display: flex;
+        align-content: flex-end;
         background-color: azure;
         font-family: $fuentegral;
         border-radius: 5%;
@@ -18,4 +20,3 @@
 .imagenprincipal2 {
     margin-top: 3rem;
 }
-

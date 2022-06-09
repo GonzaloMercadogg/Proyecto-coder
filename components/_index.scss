@@ -1,6 +1,6 @@
 .pdestacado {
     @include estilosyfuente (center, black, $titulogral);
-    @include fondosyfuente ($fondotitulo, center, $fuentegral);      
+    @include fondosyfuente ($fondotitulo, center, $fuentegral);    
 }
 
 .pdestacadosub {
@@ -22,6 +22,7 @@
     margin-top: 3rem;
     &__parrafo {
         @include estilosyfuente (center, $colorgral, 22px);
+        margin-left: 10rem;
         background-color: azure;
         border-radius: 10%;
         height: 373px;
@@ -29,7 +30,9 @@
     }
     &__review {
         @include estilosyfuente (center, $colorgral, 20px);
-        display: flex;
+        background-image: linear-gradient(to bottom, #3092b4, #ce52b2);
+        border-radius: 20%;
+        margin-left: 12rem;
         font-size: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -37,7 +40,8 @@
     }
     &__boton {
         border-radius: 10%;
-        
+        margin-left: 14.5rem;
+        margin-top: 1rem; 
     }
 }
 
